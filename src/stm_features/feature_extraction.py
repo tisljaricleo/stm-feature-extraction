@@ -63,3 +63,20 @@ class FeatureExtraction(object):
             + np.sum(self.stm_orig[7:12, 13:19])
         )
         return round(sumator / self.total_sum, 2)
+
+    def get_true_class(self):
+        congestion = self.get_p_congestion()
+        unstable = self.get_p_unstable()
+        freeflow = self.get_p_freeflow()
+
+        class_ = 0
+        if congestion > unstable and congestion > freeflow:
+            class_ = 0
+        elif unstable > congestion and unstable > freeflow:
+            class_ = 1
+        elif freeflow > congestion and freeflow > unstable:
+            class_ = 2
+        else:
+            None
+
+        return class_

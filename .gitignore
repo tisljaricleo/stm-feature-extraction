@@ -1,4 +1,7 @@
+__pycache__
 venv
 .vscode
 data/all_matrices.pkl
 data/README.txt
+src/final_df.pkl
+
