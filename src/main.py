@@ -1,6 +1,6 @@
 import os
-from stm_features import extract_features
-from ml_algorithms import get_comparison
+from .stm_features import extract_features
+from .ml_algorithms import get_comparison
 
 # path = os.getcwd()
 # data_path = str(path) + r"/data/all_matrices.pkl"
