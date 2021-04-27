@@ -32,5 +32,8 @@ After running the `main.py`, two functions will run:
 1. `extract_features(data_path, save_path)` will run the feature extraction step. All features will be explained in the article that will be published in Sep 2021.
 2. `get_comparison(save_path)` will run the comparison of different ML algorithms. All results will be printed into a terminal.
 
+## How to cite
+Full paper with detailed explanation will be available soon!  
+
 ## Contact and connect
 [Leo Tisljaric](https://www.linkedin.com/in/leo-ti%C5%A1ljari%C4%87-28a56b123/)
