@@ -1,4 +1,5 @@
 # stm-feature-extraction
+Paper title: Speed Transition Matrix Feature Extraction for Traffic State Estimation Using Machine Learning Algorithms  
 Extracting features from novel traffic data modeling technique called Speed Transition Matrix (STM). After the feature extraction, results are evaluated on different machine learning algorithms using labeled STMs.  
 You can learn more about STMs by reading these articles:  
 - [Speed Transition Matrix: Novel road traffic data modeling technique](https://medium.com/analytics-vidhya/speed-transition-matrix-novel-road-traffic-data-modeling-technique-d37bd82398d1)
@@ -33,7 +34,29 @@ After running the `main.py`, two functions will run:
 2. `get_comparison(save_path)` will run the comparison of different ML algorithms. All results will be printed into a terminal.
 
 ## How to cite
-Full paper with detailed explanation will be available soon!  
+Text:  
+Tišljarić, L., Ribić, F., Majstorović, Ž., Carić, T. (2022). Speed Transition Matrix Feature Extraction for Traffic State Estimation Using Machine Learning Algorithms. In: Petrović, M., Novačko, L., Božić, D., Rožić, T. (eds) The Science and Development of Transport—ZIRP 2021. Springer, Cham. https://doi.org/10.1007/978-3-030-97528-9_5
+
+.bib:  
+@Inbook{Tišljarić2022,
+author="Ti{\v{s}}ljari{\'{c}}, Leo
+and Ribi{\'{c}}, Filip
+and Majstorovi{\'{c}}, {\v{Z}}eljko
+and Cari{\'{c}}, Ton{\v{c}}i",
+editor="Petrovi{\'{c}}, Marjana
+and Nova{\v{c}}ko, Luka
+and Bo{\v{z}}i{\'{c}}, Diana
+and Ro{\v{z}}i{\'{c}}, Tomislav",
+title="Speed Transition Matrix Feature Extraction for Traffic State Estimation Using Machine Learning Algorithms",
+bookTitle="The Science and Development of Transport---ZIRP 2021",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="61--74",
+isbn="978-3-030-97528-9",
+doi="10.1007/978-3-030-97528-9_5",
+url="https://doi.org/10.1007/978-3-030-97528-9_5"
+}
 
 ## Contact and connect
 [Leo Tisljaric](https://www.linkedin.com/in/leo-ti%C5%A1ljari%C4%87-28a56b123/)
